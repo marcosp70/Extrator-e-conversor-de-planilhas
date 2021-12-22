@@ -27,6 +27,7 @@ class Conversor:
 
     def __lista_arquivos_clv(self): #Método para obter o novo nome dos arquivos convertidos para .csv
 
+
         self.lista_csv = self.lista_pdf[:]
 
         for i in range(0, len(self.lista_csv)):  # for com o intuito de tirar o ".pdf" e colocar ".csv" para poder exercutar no método final
@@ -38,4 +39,5 @@ diretorio = input('Digite o caminho da pasta: ')
 run = Conversor(diretorio)
 run.converter()
 print("Conversão finalizada!")
+
 
