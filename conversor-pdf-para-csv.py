@@ -24,7 +24,7 @@ for i in range(0,
     nova_palavra = nova_palavra + ".csv"
     lista2[i] = nova_palavra
 
-print(lista)  # printa da lista em pdf
+print(lista)  # print da lista em pdf
 print(lista2)  # print da lista em csv
 
 for i in range(0, len(lista2)):  # conversão de cada lista na pasta de pdf para csv
